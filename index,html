@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Algorithmic Shit Coin</title>
+</head>
+<body>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            font-family: "Work Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+        }
+        html {font-size: 16px;}
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: black;
+            font-size: 1rem;
+        }
+        h2 {margin: 2rem 0 1rem 0;}
+        section {
+            width: 100%;
+            min-height: 100vh;
+            max-width: 56rem;
+            margin: 0 auto;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        img {
+            display: block;
+            width: 25%;
+            height: 25%;
+            margin: 0 auto;
+        }
+        gap-per {flex: 1 1 auto;}
+        button {
+            display: block;
+            width: max-content;
+            margin: 0 auto 1rem auto;
+            padding: 1rem 2rem;
+            border: 1px solid black;
+            background-color: goldenrod;
+            color: black;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+        button:hover {
+            background-color: gold;
+            color: black;
+        }
+    </style>
+    <section>
+        <div>
+            <img src="./logo.png" alt="">
+            <h2>Algorithmic Shit Coin</h2>
+            <hr>
+            <p>
+                $SHIT is a stablecoin pegged 1:1 to other SHITS. <br>
+                It's designed to stay exactly the same — block after block — while everything else goes to shit.
+            </p>
+        </div>
+        <br>
+    </section>    
+</body>
+</html>
